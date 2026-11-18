@@ -24,7 +24,7 @@ export default function Evidence() {
           <h2>Downloads</h2>
           <p className="muted">The final 20 evidence file used for this shortlist.</p>
           <ul className="downloads">
-            <li><a href="./data/final20_evidence_check.csv" download>final20_evidence_check.csv</a> <span className="muted small">Model ranks, scores and pressure counts for the 20 players</span></li>
+            <li><a href="https://github.com/devesh1024/SupeRR/blob/main/public/data/final20_evidence_check.csv" download>final20_evidence_check.csv</a> <span className="muted small">Model ranks, scores and pressure counts for the 20 players</span></li>
           </ul>
         </section>
       </div>

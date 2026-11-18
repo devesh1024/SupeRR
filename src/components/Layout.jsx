@@ -30,7 +30,7 @@ export default function Layout() {
           <span>SupeRR Selector · RR IPL 2027 auction analysis · Data: IPL and T20I ball-by-ball, 2022 onward</span>
           <span className="footer-links">
             <a href="#/evidence">Evidence and downloads</a>
-            <a href="https://github.com/" target="_blank" rel="noreferrer">Repository</a>
+            <a href="https://github.com/devesh1024/SupeRR" target="_blank" rel="noreferrer">Repository</a>
           </span>
         </div>
       </footer>
