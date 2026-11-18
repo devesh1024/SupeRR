@@ -1,0 +1,21 @@
+side,name,pool_name,pid,country,pool_role,balls_faced,balls_bowled,matches,m2_rank,m2_gamma,m2_pressure_balls,m2_pressure_matches,m1_rank,m1_score,m1_tier,m1_p_balls,m1_p_matches,m1_consistency,m1_relief/level,dom_listed
+BAT,Daryl Mitchell,Daryl Mitchell,4106,New Zealand,Batter,1181,86,76,31.0,0.2716,185.0,33.0,4.0,85.35,A,456.0,51.0,63.9,88.5,0
+BAT,Brian Bennett,Brian Bennett,24017,Zimbabwe,All-rounder,815,137,44,110.0,0.0994,148.0,28.0,1.0,91.44,A,224.0,30.0,97.4,90.6,0
+BAT,Liton Das,Liton Das,2671,Bangladesh,Batter (WK),1175,0,61,134.0,0.0511,147.0,30.0,3.0,83.91,A,254.0,30.0,88.5,83.2,0
+BAT,Nehal Wadhera,Nehal Wadhera,7059,India,Batter,711,28,53,113.0,0.095,124.0,18.0,27.0,48.52,A,286.0,25.0,86.9,42.9,0
+BAT,Muhammad Waseem,Muhammad Waseem,22565,United Arab Emirates,Batter,472,19,20,21.0,0.3073,128.0,18.0,2.0,76.76,B,58.0,10.0,46.6,81.2,0
+BAT,M Shahrukh Khan,M Shahrukh Khan,3782,India,Batter,433,18,53,118.0,0.0861,90.0,24.0,32.0,42.25,A,241.0,32.0,59.2,39.8,5
+BAT,Rahul Tripathi,Rahul Tripathi,1440,India,Batter,734,0,43,95.0,0.1256,159.0,28.0,35.0,38.62,A,366.0,35.0,16.2,41.9,0
+BAT,Nitish Rana,Nitish Rana,4246,India,Batter,896,104,50,89.0,0.1365,188.0,29.0,46.0,22.85,A,404.0,41.0,28.8,22.0,1
+BAT,Anmolpreet Singh,Anmolpreet Singh,4817,India,Batter,103,0,8,,,,,,,,,,,,2
+BAT,Ashwin Hebbar,Ashwin Hebbar,4325,India,Unclassified (no match data),0,0,0,,,,,,,,,,,,1
+BOWL,Matheesha Pathirana,Matheesha Pathirana,8661,Sri Lanka,Bowler,32,1279,55,17.0,0.1345,198.0,33.0,2.0,83.16,A,456.0,31.0,56.7,85.8,0
+BOWL,Avesh Khan,Avesh Khan,3653,India,Bowler,60,1745,81,107.0,-0.0174,449.0,63.0,20.0,61.13,A,606.0,52.0,67.9,60.4,1
+BOWL,Wanindu Hasaranga,Wanindu Hasaranga,4900,Sri Lanka,All-rounder,482,2054,91,9.0,0.1642,302.0,48.0,5.0,85.88,A,840.0,60.0,64.2,88.1,0
+BOWL,Gareth Delany,Gareth Delany,7741,Ireland,All-rounder,298,566,40,94.0,0.0021,97.0,19.0,1.0,93.22,A,240.0,19.0,92.5,93.3,0
+BOWL,Umran Malik,Umran Malik,25048,India,Bowler,18,600,31,118.0,-0.0399,107.0,17.0,15.0,67.83,A,216.0,17.0,37.3,70.9,0
+BOWL,Adil Rashid,Adil Rashid,479,England,Bowler,126,1347,65,56.0,0.0392,148.0,26.0,4.0,92.33,A,522.0,37.0,90.3,92.5,0
+BOWL,Keshav Maharaj,Keshav Maharaj,1944,South Africa,Bowler,91,611,30,72.0,0.0238,60.0,11.0,3.0,90.96,A,222.0,16.0,53.0,94.8,0
+BOWL,Nasum Ahmed,Nasum Ahmed,4658,Bangladesh,Bowler,82,607,31,86.0,0.0117,91.0,21.0,6.0,88.6,A,234.0,20.0,86.6,88.8,0
+BOWL,Jaydev Unadkat,Jaydev Unadkat,1071,India,Bowler,74,599,30,117.0,-0.0392,97.0,22.0,31.0,39.5,A,252.0,22.0,68.7,36.6,0
+BOWL,Jhatavedh Subramanyan,Jhatavedh Subramanyan,7197,India,Unclassified (no match data),0,0,0,,,,,,,,,,,,1

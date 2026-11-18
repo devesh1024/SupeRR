@@ -1,12 +1,3 @@
-import { meta } from '../data/index.js';
-
-const files = [
-  ['approach_B_shortlist_batters_extended.csv', 'Batter shortlist, 50 rows, with intervals and flags'],
-  ['approach_B_shortlist_bowlers_extended.csv', 'Bowler shortlist, 50 rows, with intervals and flags'],
-  ['rankings_batters_all.csv', 'SupeRR v3 full batter rankings (cross-check)'],
-  ['rankings_bowlers_all.csv', 'SupeRR v3 full bowler rankings (cross-check)'],
-];
-
 export default function Evidence() {
   return (
     <>
@@ -21,24 +12,19 @@ export default function Evidence() {
         <section className="card caveat">
           <h2>Limits</h2>
           <ul>
-            <li>Scores are based on IPL and T20I data from 2022 onward. Domestic-only players have less evidence, and their ranges are wider.</li>
-            <li>Pressure is defined from the match state, not from what a team says mattered. A different definition could change the order.</li>
-            <li>The two models agree only moderately. Ranks should be read as strong candidates, not certainties.</li>
-            <li>{meta.eligibleBatters} batters and {meta.eligibleBowlers} bowlers meet the eligibility filters. Others are excluded, not ranked lower.</li>
+            <li>Thin samples: Muhammad Waseem is tier B with 10 pressure matches. Keshav Maharaj (16), Umran Malik (17) and Gareth Delany (19) are below 20 pressure matches. Their scores are provisional.</li>
+            <li>Disagreement between models: Brian Bennett is 1st in Model 1 but 110th in Model 2. Avesh Khan, Umran Malik and Jaydev Unadkat have negative Model 2 scores.</li>
+            <li>No model rating: Anmolpreet Singh, Ashwin Hebbar and Jhatavedh Subramanyan. Their inclusion rests on squad need only.</li>
+            <li>Eligibility to confirm: Bangladesh eligibility for Liton Das and Nasum Ahmed is unresolved.</li>
+            <li>The pressure definition comes from match state. A different definition could change some positions.</li>
             <li>No auction price, purse or valuation is estimated here.</li>
           </ul>
         </section>
-
         <section className="card">
           <h2>Downloads</h2>
-          <p className="muted">Files are the same outputs the models produced.</p>
+          <p className="muted">The final 20 evidence file used for this shortlist.</p>
           <ul className="downloads">
-            {files.map(([f, d]) => (
-              <li key={f}>
-                <a href={`./data/${f}`} download>{f}</a>
-                <span className="muted small"> {d}</span>
-              </li>
-            ))}
+            <li><a href="./data/final20_evidence_check.csv" download>final20_evidence_check.csv</a> <span className="muted small">Model ranks, scores and pressure counts for the 20 players</span></li>
           </ul>
         </section>
       </div>
